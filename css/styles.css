@@ -219,17 +219,16 @@ text-decoration: none;
 
 /* Hero */
 
-
 .hero {
-background-color:  #2E2F42;
-padding: 192px 0;
-text-align: center;
-background-image:linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-url(../images/group-people-working-website-template.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-} 
+  background-color:  #2E2F42;
+  padding: 192px 0;
+  text-align: center;
+  background-image:linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+  url(../images/group-people-working-website-template.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  } 
 
 
 .hero-title {
@@ -286,9 +285,8 @@ background-position: center;
 }   
 
 .features-list > .features-item {
-  /* padding-bottom: 120px;
-  padding-top: 120px; */
-  /* width: 264px; */
+
+   width: 264px; 
   
   flex-basis: calc((100% - 72px) / 4);
 }
@@ -391,6 +389,7 @@ background-position: center;
 .section-bnt {
   margin-top: auto;
   padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .portfolio-filter-bnt {
@@ -421,13 +420,13 @@ background-position: center;
   display: flex;
   align-items: center; 
   justify-content: center;
-  margin-bottom: 72px;
+  margin-bottom: 72px;  
   
 
 } 
 
 .portfolio-filter-item {
-  margin-left: 24px;
+    margin-left: 24px;
   
 }
 
