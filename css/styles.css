@@ -491,3 +491,24 @@ border: 0,5px solid #F4F4FD;
   width: 264px;
   margin-top: 16px;
 } 
+
+
+
+/* icon-feathures */
+.icon-feature {
+  display: flex;
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+
+  align-items: center;
+  justify-content: center;
+
+  background-color: #F4F4FD;
+}
+
+
+.icon-communication {
+  display: block;
+  fill: #2E2F42;
+}
