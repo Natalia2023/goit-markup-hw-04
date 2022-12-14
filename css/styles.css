@@ -218,6 +218,16 @@ text-decoration: none;
 }
 
 /* Hero */
+.hero-btn {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.hero-btn:hover, 
+.hero-btn:focus {
+box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+background-color: #404BBF;
+}
+
 
 .hero {
   background-color:  #2E2F42;
@@ -260,6 +270,8 @@ text-decoration: none;
   padding-bottom: 16px;
   padding-left: 32px;
 }
+
+
 
 .section-title {
   font-weight: 600;
@@ -369,14 +381,15 @@ text-decoration: none;
 .section-team {
   background: #F4F4FD;
   padding-bottom: 120px;
-  /* font-weight: 600px;
-  font-size: 36px;
-  line-height: 1.1;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  margin-bottom: 72px; */
+  
 }
+
+
+.team-item {
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+  0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
 
 .teams {
   display: flex;
@@ -412,6 +425,17 @@ text-decoration: none;
   background-color: #31D0AA;
 }
 /* ======Portfolio======= */
+.portfolio-item:hover,
+.portfolio-item:focus {
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+  0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-item {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+
 .section-bnt {
   margin-top: auto;
   padding-top: 96px;
@@ -497,8 +521,33 @@ padding-right: 16px;
 border: 0,5px solid #F4F4FD;
 
 }
+/* sechion custimer */
+
+.customers-icon {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 72px;
+  padding-bottom: 120px;
+}
+
+.customers-li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #E5E5E5;
+  width: 168px;
+  height: 88px;
+ 
+}
+
 
 /* Footer */
+/* .fotmarg {
+  margin-top: 120px;
+} */
+
 
 .footer {
   background-color: var(--title-primary-color);
@@ -517,67 +566,47 @@ border: 0,5px solid #F4F4FD;
   width: 264px;
   margin-top: 16px;
 } 
-/* додаємо стилі на футер з іконками */
-.join {
-  margin-bottom: 20px;
 
-  color: var(--secondary-title-color);
+/* footer decoration */
+/* .footer {
+  margin-top: 120px;
+} */
+.footer .conteiner {
+  display: flex;
+}
+.footer-icon-div {
+  width: 208px;
+  height: 80px;
+  margin-left: 120px;
+}
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-}
-.company-socials-list {
+.footer-icon-text {
+letter-spacing: 2%; 
+line-height: 24px;
+} 
+
+
+.footer-social {
   display: flex;
-  gap: 10px;
+  gap: 16px;
+
 }
-.company-socials-item:not(:last-child)::before {
-  margin-right: 8px;
-}
-.company-socials-link {
-  width: 44px;
-  height: 44px;
+
+.footer-icon-link {
   display: flex;
-  border-radius: 50%;
   justify-content: center;
   align-items: center;
+  border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  color: #F4F4FD;
+  width: 40px;
+  height: 40px;
+  margin-top: 16px;
 }
 
-.company-socials-link:hover,
-.company-socials-link:focus {
+.footer-icon-link:hover,
+.footer-icon-link:focus {
   background-color: #31D0AA;
 }
-.icon-company-socials {
-  fill: currentColor;
-}
-
-
-/* icon-feathures */
-.features-icons {
-  display: flex;
-  width: 264px;
-  height: 112px;
-  margin-bottom: 8px;
-  border-radius: 4px;
-
-  align-items: center;
-  justify-content: center;
-
-
-  background-color: #F4F4FD;
-}
-
-/* social-list */
-/* .social-list {
-  display: flex;
-  justify-content: space-between;
-  gap: 24px;
-  margin-top: 12px;
-}
-
 .social-list-item {
   display: flex;
   justify-content: center;
@@ -591,30 +620,13 @@ border: 0,5px solid #F4F4FD;
 .social-list-item:hover,
 .social-list-item:focus {
   background-color: #31D0AA;
-} */
+} 
 
 .social-icons-list {
   display: flex;
   width: 168px;
   height: 88px;
-  /* margin-bottom: 8px;
-  border-radius: 4px; */
-
-  align-items: center;
-  justify-content: center;
-
-
-  background-color: #E5E5E5;
-  
+ 
 }
+ 
 
-.social-icons {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-  padding-bottom: 120px;
-}
-.icons-icons .item-title {
-  padding-bottom: 72px;
-  text-align: center;
-}
