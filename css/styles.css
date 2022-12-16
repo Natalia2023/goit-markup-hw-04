@@ -43,9 +43,6 @@ img {
 
 /* ========================== */
 
-
-
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -118,7 +115,6 @@ text-decoration: none;
 /* logo */
 
 .page-header {
-  /* margin-bottom: 96px; */
   margin-bottom: 0;
 }
 
@@ -310,7 +306,7 @@ background-color: #404BBF;
   margin: 0;
   list-style: 0;
   display: flex;
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
   gap: 24px;
 
 }
@@ -577,8 +573,8 @@ border: 0,5px solid #F4F4FD;
 
  .customers-use:hover,
  .customers-use:focus {
-  color: #4d5ae5;
-  border: 1px solid violet;
+  color:#404BBF;
+  border: 1px solid #404BBF;
   fill: currentColor;
  }  
 
@@ -617,6 +613,7 @@ border: 0,5px solid #F4F4FD;
 .footer-icon-text {
 letter-spacing: 2%; 
 line-height: 24px;
+margin-bottom: 16px;
 } 
 
 
@@ -634,7 +631,7 @@ line-height: 24px;
   background-color: rgba(255, 255, 255, 0.1);
   width: 40px;
   height: 40px;
-  margin-top: 16px;
+  /* margin-top: 16px; */
 }
 
 .footer-icon-link:hover,
